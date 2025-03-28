@@ -17,7 +17,7 @@ export default function Home() {
         />
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
           Төгс{" "}
-          <span className="inline-block bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-transparent">
+          <span className="inline-block bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">
             Анкетээ
           </span>{" "}
           Минутын дотор бүтээгээрэй
