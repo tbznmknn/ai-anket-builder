@@ -26,6 +26,16 @@ export default function Home() {
           Бидний <span className="font-bold">AI анкет бүтээгч</span> ажилд олгох
           анкетийг зохиомжлож бүтээхэд туслах болно
         </p>
+        <div className="mb-2 max-w-md rounded-2xl p-4 shadow-md">
+          <h2 className="mb-4 text-xl font-semibold text-gray-800">
+            Хэрэглээнд нэвтэрсэн анкетүүд
+          </h2>
+          <ul className="list-inside list-disc space-y-2 text-gray-700">
+            <li>CV</li>
+            <li>Төрийн албан хаагчийн 1-р анкет</li>
+          </ul>
+        </div>
+
         <Button asChild size="lg" variant="premium">
           <Link href="/resumes">Эхлэх</Link>
         </Button>
