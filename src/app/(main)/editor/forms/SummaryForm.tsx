@@ -37,7 +37,7 @@ export default function SummaryForm({
   return (
     <div className="mx-auto max-w-xl space-y-6">
       <div className="space-y-1.5 text-center">
-        <h2 className="text-2xl font-semibold">Мэргэжлийн дүгнэлт</h2>
+        <h2 className="text-2xl font-semibold">Товч танилцуулга</h2>
         <p className="text-sm text-muted-foreground">
           Өөрийнхөө мэргэжлийн түүхээ бичээд, хиймэл оюун таньд текст гаргах
           болно
@@ -50,7 +50,7 @@ export default function SummaryForm({
             name="summary"
             render={({ field }) => (
               <FormItem>
-                <FormLabel className="sr-only">Мэргэжлийн дүгнэлт</FormLabel>
+                <FormLabel className="sr-only">Товч танилцуулга</FormLabel>
                 <FormControl>
                   <Textarea
                     {...field}

@@ -113,7 +113,7 @@ function InputDialog({
                   <FormControl>
                     <Textarea
                       {...field}
-                      placeholder={`E.g. "from nov 2019 to dec 2020 I worked at google as a software engineer, tasks were: ...`}
+                      placeholder={`жич: "2019 оны намраас 2021 оны хавар хаан банканд программистаар ажилласан, даалгаврууд бол: ...`}
                       autoFocus
                     />
                   </FormControl>

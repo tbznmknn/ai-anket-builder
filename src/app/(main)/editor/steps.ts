@@ -37,7 +37,7 @@ export const steps: {
     key: "skill",
   },
   {
-    title: "Гол хэсэг",
+    title: "Товч танилцуулга",
     component: SummaryForm,
     key: "summary",
   },

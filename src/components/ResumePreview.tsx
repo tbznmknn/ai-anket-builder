@@ -145,7 +145,7 @@ function SummarySection({ resumeData }: ResumeSectionProps) {
             color: colorHex,
           }}
         >
-          Мэргэжлийн анкет
+          Товч танилцуулга
         </p>
         <div className="whitespace-pre-line text-sm">{summary}</div>
       </div>

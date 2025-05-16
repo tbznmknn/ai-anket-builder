@@ -10,14 +10,12 @@ import {
 } from "@/lib/validation";
 
 export async function generateSummary(input: GenerateSummaryInput) {
-  // TODO: Block for non-premium users
-
   const { jobTitle, workExperiences, educations, skills } =
     generateSummarySchema.parse(input);
 
   const systemMessage = `
-    You are a job resume generator AI. Your task is to write a professional introduction summary for a resume given the user's provided data.
-    Only return the summary and do not include any other information in the response. Keep it concise and professional.
+    You are a job resume generator AI. Your task is to write a professional introduction summary for a resume in Mongolian language given the user's provided data.
+    Only return the summary in Mongolian and do not include any other information in the response. Keep it concise and professional.
     `;
 
   const userMessage = `
@@ -79,19 +77,17 @@ export async function generateSummary(input: GenerateSummaryInput) {
 export async function generateWorkExperience(
   input: GenerateWorkExperienceInput,
 ) {
-  // TODO: Block for non-premium users
-
   const { description } = generateWorkExperienceSchema.parse(input);
 
   const systemMessage = `
-  You are a job resume generator AI. Your task is to generate a single work experience entry based on the user input.
+  You are a job resume generator AI. Your task is to generate a single work experience entry in Mongolian language based on the user input.
   Your response must adhere to the following structure. You can omit fields if they can't be infered from the provided data, but don't add any new ones.
 
-  Job title: <job title>
+  Job title: <job title in Mongolian>
   Company: <company name>
   Start date: <format: YYYY-MM-DD> (only if provided)
   End date: <format: YYYY-MM-DD> (only if provided)
-  Description: <an optimized description in bullet format, might be infered from the job title>
+  Description: <an optimized description in bullet format in Mongolian, might be infered from the job title>
   `;
 
   const userMessage = `
