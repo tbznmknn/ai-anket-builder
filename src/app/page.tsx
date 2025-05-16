@@ -28,11 +28,11 @@ export default function Home() {
         </p>
         <div className="mb-2 max-w-md rounded-2xl p-4 shadow-md">
           <h2 className="mb-4 text-xl font-semibold text-gray-800">
-            Хэрэглээнд нэвтэрсэн анкетүүд
+            Хэрэглээнд нэвтэрсэн анкетийн загварууд
           </h2>
           <ul className="list-inside list-disc space-y-2 text-gray-700">
-            <li>CV</li>
-            <li>Төрийн албан хаагчийн 1-р анкет</li>
+            <li>Мэргэжлийн CV</li>
+            {/* <li>Төрийн албан хаагчийн 1-р анкет</li> */}
           </ul>
         </div>
 
